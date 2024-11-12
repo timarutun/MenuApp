@@ -16,7 +16,7 @@ final class NetworkManager {
     
     private init() {}
     
-    func getAppetizers(complited: @escaping (Result<[Appetizer], Error>) -> Void) {
+    func getAppetizers(complited: @escaping (Result<[Appetizer], APError>) -> Void) {
         
     }
 }
