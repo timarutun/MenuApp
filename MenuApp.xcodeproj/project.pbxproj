@@ -14,6 +14,7 @@
 		39349C792CC4AE9100953C55 /* AppetizerListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39349C782CC4AE9100953C55 /* AppetizerListView.swift */; };
 		39349C7B2CC4AEC700953C55 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39349C7A2CC4AEC700953C55 /* AccountView.swift */; };
 		39349C7D2CC4AEE500953C55 /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39349C7C2CC4AEE500953C55 /* OrderView.swift */; };
+		39391A772CE311CE00876E14 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39391A762CE311CE00876E14 /* NetworkManager.swift */; };
 		396A777D2CD3424F0070A8BA /* Appetizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 396A777C2CD3424F0070A8BA /* Appetizer.swift */; };
 		396A777F2CDB2B8B0070A8BA /* AppetizerListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 396A777E2CDB2B8B0070A8BA /* AppetizerListCell.swift */; };
 /* End PBXBuildFile section */
@@ -27,6 +28,7 @@
 		39349C782CC4AE9100953C55 /* AppetizerListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerListView.swift; sourceTree = "<group>"; };
 		39349C7A2CC4AEC700953C55 /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
 		39349C7C2CC4AEE500953C55 /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
+		39391A762CE311CE00876E14 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		396A777C2CD3424F0070A8BA /* Appetizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Appetizer.swift; sourceTree = "<group>"; };
 		396A777E2CDB2B8B0070A8BA /* AppetizerListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerListCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -70,6 +72,7 @@
 				396A777C2CD3424F0070A8BA /* Appetizer.swift */,
 				390664872CC0B4030039F822 /* Assets.xcassets */,
 				390664892CC0B4030039F822 /* Preview Content */,
+				39391A762CE311CE00876E14 /* NetworkManager.swift */,
 			);
 			path = MenuApp;
 			sourceTree = "<group>";
@@ -156,6 +159,7 @@
 				396A777F2CDB2B8B0070A8BA /* AppetizerListCell.swift in Sources */,
 				390664862CC0B4010039F822 /* AppetizerTabView.swift in Sources */,
 				39349C7B2CC4AEC700953C55 /* AccountView.swift in Sources */,
+				39391A772CE311CE00876E14 /* NetworkManager.swift in Sources */,
 				390664842CC0B4010039F822 /* MenuAppApp.swift in Sources */,
 				39349C792CC4AE9100953C55 /* AppetizerListView.swift in Sources */,
 				39349C7D2CC4AEE500953C55 /* OrderView.swift in Sources */,
