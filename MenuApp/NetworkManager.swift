@@ -37,7 +37,16 @@ final class NetworkManager {
                 complited(.failure(.invalidData))
                 return
             }
+            
+            do {
+                let decoder = JSONDecoder()
+                let decodedResponse = try decoder.decode(AppetizerResponse.self, from: data)
+                complited(.success(decodedResponse.request))
+            } catch {
+                complited(.failure(.invalidData))
+            }
         }
         
+        task.resume()
     }
 }
