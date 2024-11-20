@@ -16,6 +16,7 @@
 		39349C7D2CC4AEE500953C55 /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39349C7C2CC4AEE500953C55 /* OrderView.swift */; };
 		39391A772CE311CE00876E14 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39391A762CE311CE00876E14 /* NetworkManager.swift */; };
 		39391A792CE3142600876E14 /* APError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39391A782CE3142600876E14 /* APError.swift */; };
+		394343412CEDA9E7004B5AC3 /* AppetizerListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394343402CEDA9E7004B5AC3 /* AppetizerListViewModel.swift */; };
 		396A777D2CD3424F0070A8BA /* Appetizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 396A777C2CD3424F0070A8BA /* Appetizer.swift */; };
 		396A777F2CDB2B8B0070A8BA /* AppetizerListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 396A777E2CDB2B8B0070A8BA /* AppetizerListCell.swift */; };
 /* End PBXBuildFile section */
@@ -31,6 +32,7 @@
 		39349C7C2CC4AEE500953C55 /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
 		39391A762CE311CE00876E14 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		39391A782CE3142600876E14 /* APError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APError.swift; sourceTree = "<group>"; };
+		394343402CEDA9E7004B5AC3 /* AppetizerListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerListViewModel.swift; sourceTree = "<group>"; };
 		396A777C2CD3424F0070A8BA /* Appetizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Appetizer.swift; sourceTree = "<group>"; };
 		396A777E2CDB2B8B0070A8BA /* AppetizerListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerListCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -68,6 +70,7 @@
 				390664832CC0B4010039F822 /* MenuAppApp.swift */,
 				390664852CC0B4010039F822 /* AppetizerTabView.swift */,
 				39349C782CC4AE9100953C55 /* AppetizerListView.swift */,
+				394343402CEDA9E7004B5AC3 /* AppetizerListViewModel.swift */,
 				396A777E2CDB2B8B0070A8BA /* AppetizerListCell.swift */,
 				39349C7A2CC4AEC700953C55 /* AccountView.swift */,
 				39349C7C2CC4AEE500953C55 /* OrderView.swift */,
@@ -167,6 +170,7 @@
 				390664842CC0B4010039F822 /* MenuAppApp.swift in Sources */,
 				39349C792CC4AE9100953C55 /* AppetizerListView.swift in Sources */,
 				39349C7D2CC4AEE500953C55 /* OrderView.swift in Sources */,
+				394343412CEDA9E7004B5AC3 /* AppetizerListViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
