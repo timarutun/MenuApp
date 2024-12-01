@@ -25,6 +25,6 @@ struct AlertContext {
                                       message: Text("Invalid URL"),
                                       dismissButton: .default(Text("OK")))
     static let unableToComplite = AlertItem(title: Text("Server Error"),
-                                            message: Text("Unable to complite your request at this time"),
+                                            message: Text("Unable to complite your request at this time. Check your internet connection."),
                                             dismissButton: .default(Text("OK")))
 }
